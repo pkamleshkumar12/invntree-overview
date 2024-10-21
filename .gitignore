@@ -1,0 +1,24 @@
+# Ignore everything in the backups directory
+backups/*
+
+# Common files to ignore
+*.log
+*.tmp
+
+# Node.js dependencies
+node_modules/
+
+# Python virtual environment
+venv/
+*.pyc
+__pycache__/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
