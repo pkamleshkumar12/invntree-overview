@@ -22,9 +22,12 @@ Here are the individual microservices that form the backend of INVNTREE:
 
 2. **[Service Registry](https://github.com/pkamleshkumar12/invntree-service-registry)**  
    Manages service discovery and registration.
+   
+
 
 3. **[Config Server](https://github.com/pkamleshkumar12/invntree-config-server)**  
    Centralized configuration management for all services.
+   For instructions on setting up and configuring HashiCorp Vault in minikube, please refer to my [Setting Up Vault](setting-up-vault.md) guide.
 
 4. **[User Service](https://github.com/pkamleshkumar12/invntree-user-service)**  
    Manages user data, profiles, and preferences.
